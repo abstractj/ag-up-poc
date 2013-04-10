@@ -1,6 +1,12 @@
 #Proof Of Concept: AeroGear Unified Push Server... 
 **NOTE:** THIS IS NOT YET READY, it's just evaluating some ideas
 
+### Staring the server
+
+To start the server simple run the following command:
+
+	mvn vertx:run
+
 ### Some guidance ...
 
 #### Registration
