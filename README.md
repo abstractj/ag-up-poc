@@ -1,7 +1,27 @@
 #Proof Of Concept: AeroGear Unified Push Server... 
 **NOTE:** THIS IS NOT YET READY, it's just evaluating some ideas
 
-### Staring the server
+### Before you getting started
+
+1. Download  http://vert-x.github.com:80/vertx-mods/mods/vertx.mongo-persistor-v1.2/mod.zip
+
+2. in the folder (where you invoke ```mvn```) create a ```mods``` folder
+
+3. extract the download into that folder
+
+4. it should look like (```ls -la``` in the ```mods``` folder):
+
+```
+pluto:mods matzew$ ls -la
+total 0
+drwxr-xr-x  3 matzew  staff  102 Apr 10 17:21 .
+drwxr-xr-x  9 matzew  staff  306 Apr 10 17:01 ..
+drwxr-xr-x  5 matzew  staff  170 Oct 24 13:28 vertx.mongo-persistor-v1.2
+pluto:mods matzew$ 
+```
+5. Make sure you have **mongodb** installed
+
+### Starting the server
 
 To start the server simple run the following command:
 
